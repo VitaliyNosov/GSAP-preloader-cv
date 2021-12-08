@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Inconsolata';
+  font-weight: regular;
+}
+
+.preloader-body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.preloader-block-position {
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.preloader {
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  border: 2px dashed #075D8C;
+  margin-bottom: 5%;
+}
+
+.profesion {
+  width: 200px;
+  background-color: #075D8C;
+  padding: 5px 15px 5px 15px;
+}
+
+.linePreloader {
+  width: 200px;
+  height: 4px;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, right top, from(#075D8C), to(#075D8C));
+  background: linear-gradient(to right, #075D8C, #075D8C);
+  background-color: #ccc;
+  border-radius: 4px;
+  background-size: 20%;
+  background-repeat: repeat-y;
+  background-position: -25% 0;
+  -webkit-animation: scroll 1.2s ease-in-out infinite;
+          animation: scroll 1.2s ease-in-out infinite;
+}
+
+@-webkit-keyframes scroll {
+  50% {
+    background-size: 80%;
+  }
+  100% {
+    background-position: 125% 0;
+  }
+}
+
+@keyframes scroll {
+  50% {
+    background-size: 80%;
+  }
+  100% {
+    background-position: 125% 0;
+  }
+}
+
+.text {
+  max-width: 1000px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.letter {
+  color: #fff;
+}
+
+.text div {
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */
