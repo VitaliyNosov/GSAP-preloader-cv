@@ -30,7 +30,7 @@ Array.from(split.querySelectorAll('.letter')).forEach((el, idx) => {
 // Появление блока
 
 gsap.to('.preloader', {
-	duration: 1.5,
+	duration: 2.5,
 	y: 0,
 	scale: 1,
 	opacity: 1
