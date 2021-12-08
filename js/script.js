@@ -22,10 +22,22 @@ Array.from(split.querySelectorAll('.letter')).forEach((el, idx) => {
 		x: random(-500, 500),
 		y: random(-500, 500),
 		z: random(-500, 500),
-		delay: idx * 0.35,
+		delay: idx * 0.25,
 		repeat: 0,
 	})
 });
 
+// Появление блока
 
-console.log(123);
+gsap.to('.preloader', {
+	duration: 1.5,
+	y: 0,
+	scale: 1,
+	opacity: 1
+  })
+
+gsap.to('.linePreloader', {
+	duration: 1,
+	y: 0,
+	scale: 1
+  })

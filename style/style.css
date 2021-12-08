@@ -53,7 +53,10 @@ body {
           align-items: center;
   height: 60px;
   border: 2px dashed #075D8C;
+  background-color: #fff;
   margin-bottom: 5%;
+  z-index: 10;
+  opacity: 0;
 }
 
 .profesion {
